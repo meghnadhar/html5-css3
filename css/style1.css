@@ -1,0 +1,43 @@
+.header,.footer
+	{
+		background: lightblue  ;
+		padding: 37px;
+	}
+article
+	{
+		float:left;
+	}
+h1
+	{
+		text-align: center;
+		margin: auto;
+	}
+body
+	{    background: #1C2833;
+		font-family: sans-serif;
+	}
+li
+	{
+		display: inline;
+		padding-left: 130px;
+		margin: auto; 
+	}
+ul a
+	{
+		text-decoration: none;
+		color :blue;
+	}
+ul a:hover 
+	{
+		text-decoration:underline;
+		color: lightblue;
+	}
+p
+	{
+		padding: 50px;
+		background: white;
+	}
+aside
+	{
+		float:right;
+	}
