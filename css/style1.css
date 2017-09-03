@@ -1,43 +1,113 @@
-.header,.footer
+
+.header
 	{
-		background: lightblue  ;
-		padding: 37px;
+		color: white;
+		letter-spacing: 6px;
+		font-size: 30px;
+		position:fixed;
+		margin-top: 30px;
+
 	}
 article
 	{
-		float:left;
+		float: left;
+		
 	}
-h1
+div.header h1{
+	font-family: 'Ubuntu', sans-serif;padding-left:20px;
+}
+div.header h1
 	{
 		text-align: center;
-		margin: auto;
+		display: inline;
+		margin-left: 50px;
+
 	}
 body
-	{    background: #1C2833;
-		font-family: sans-serif;
+	{    background-image: url(../images/sunset.jpg);
+		 background-repeat: no-repeat;
+		 font-size: 15px;
+	}
+div.image 
+	{
+		margin-bottom: 20px;
+		margin-top: 120px;
 	}
 li
 	{
 		display: inline;
-		padding-left: 130px;
-		margin: auto; 
+		padding-left: 170px;
+		margin: auto;
 	}
 ul a
 	{
 		text-decoration: none;
-		color :blue;
+		color :white;
+		font-size: 15px;
+		position:fixed;
+		margin-top: 100px;
+
 	}
 ul a:hover 
 	{
+		color: yellow;
+	}
+
+div.first
+	{
+		background-color: #D6D8D8;
+		padding: 15px;
+		margin-top: 10px;
+		
+	}
+div.third,div.fourth,div.second
+	{
+		background-color: #D6D8D8;
+		padding: 16px;
+		margin-top: 10px;
+	}
+div.fifth,div.sixth,div.seventh
+	{
+		background-color:#FBD4CC;
+		padding: 25px;
+		margin-top: 20px;
+		margin-right: 40px;
+		text-align: center;
+	}
+
+div.fifth a
+	{
+		text-decoration: none;
+		color :red;
+		font-size: 15px;
+	}
+div.fifth a:hover 
+	{
 		text-decoration:underline;
-		color: lightblue;
+		color: blue;
 	}
-p
+
+	body{
+font-family: 'Ubuntu', sans-serif;}
+
+footer
 	{
-		padding: 50px;
-		background: white;
+		background: #650727;
+		padding: 20px;
+		margin-top: 20px;
+		text-align: center;
+		color:white;
+		padding-right: 40px;
+		letter-spacing: 2px;
 	}
-aside
+.social a
 	{
-		float:right;
+		color: white;
+		text-decoration: none;
+		font-size: 40px;
+		padding-left: 30px;
+	}
+.social a:hover
+	{
+		color: yellow;
 	}
